@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>survey form</title>
+</head>
+<body style="background-color:lightblue">
+    <h1 id="para1">
+        SURVEY FORM
+    </h1>
+        <form action="/action.php">
+            <ol>
+                <h5 style="color:brown">required fields*</h5>
+                <li>
+                    <h4>
+                        Name:
+                    </h4>
+                    <input type="text" value="first name">
+                    <input type="text" value="last name">
+                </li>
+                <br>
+                <li>
+                    <h4>
+                        Email:
+                    </h4>
+                    <input type="text" value="enter your email id">
+                </li>
+                <br>
+                <li>
+                    <h4>
+                        Phone number:
+                    </h4>
+                    <input type="digit" value="with country code">
+                </li>
+                
+                <li>
+                    <h4>
+                       Select your state:
+                    </h4>
+                    <select name="state" id="state">
+                    <option value=ANDHRA_PRADESH>ANDHRA PRADESH</option>
+                    <option value=ARUNACHAL_PRADESH>ARUNACHAL PRADESH</option>
+                    <option value=ASSAM>ASSAM</option>
+                    <option value=BIHAR>BIHAR</option>
+                    <option value=CHATTISGARH>CHATTISGARH</option>
+                    <option value=GOA>GOA</option>
+                    <option value=GUJARAT>GUJARAT</option>
+                    <option value=HARYANA>HARYANA</option>
+                    <option value=HIMACHAL_PRADESH>HIMACHAL_PRADESH</option>
+                    <option value=JHARKHAND>JHARKHAND</option>
+                    <option value=KARNATAKA>KARNATAKA</option>
+                    <option value=KERALA>KERALA</option>
+                    <option value=MADHYA_PRADESH>MADHYA_PRADESH</option> 
+                    <option value=MANIPUR>MANIPUR</option>
+                    <option value=MEGHALAYA>MEGHALAYA</option>
+                    <option value=MIZORAM>MIZORAM</option>
+                    <option value=NAGALAND>NAGALAND</option>
+                    <option value=ODISHA>ODISHA </option>
+                    <option value=PUNJAB>PUNJAB</option>
+                    <option value=RAJASTHAN>RAJASTHAN</option>
+                    <option value=SIKKIM>SIKKIM</option>
+                    <option value=TAMIL_NADU>TAMIL_NADU</option>
+                    <option value=TELANGANA>TELANGANA</option>
+                    <option value=TRIPURA>TRIPURA</option>
+                    <option value=UTTAR_PRADESH>UTTAR_PRADESH</option>
+                    <option value=UTTARKHAND>UTTARKHAND</option>
+                    <option value=WESTBENGAL>WESTBENGAL</option>  
+                    </select>
+                </li>
+                <br>
+                <li>
+                    <h4>
+                        Age:
+                    </h4>
+                    <label for="11">
+                        <input type="radio" value="minors" name="age group" id="11">15-17
+                    </label>
+                    <br>
+                    <label for="12">
+                        <input type="radio" value="adults" name="age group" id="12">18-25
+                    </label>
+                    <br>
+                    <label for="13">
+                        <input type="radio" value="adults" name="age group" id="13"> >25
+                    </label>
+                </li>
+                <hr>
+                </ol>
+                <ol>
+                    <h5 style="color:brown">survey questions*</h5>
+                <li>
+                    <h4>
+                        How many times do you workout?
+                    </h4>
+                    <label for="21">
+                        <input type="radio" value="3" name="workout" id="21">thrice a week
+                    </label>
+                    <br>
+                    <label for="22">
+                        <input type="radio" value="more than three" name="workout" id="22"> less than thrice a week
+                    </label>
+                    <br>
+                    <label for="23">
+                        <input type="radio" value="no" name="workout" id="23"> more than thrice a week 
+                    </label>
+                </li>
+                <br>
+                <li>
+                    <h4>
+                        Do you take measures to cutdown refined sugar consumption on a daily basis?
+                    </h4>
+                    <label for="31">
+                        <input type="radio" value="yes" name="diet" id="31">yes
+                    </label>
+                    <br>
+                    <label for="32">
+                        <input type="radio" value="no" name="diet" id="32">no
+                    </label>
+                </li>
+                <br>
+                <li>
+                    <h4>
+                        How many times in a week do you eat junk food?
+                    </h4>
+                    <label for="41">
+                        <input type="radio" value="weekly once" name="diet" id="41">once a week
+                    </label>
+                    <br>
+                    <label for="42">
+                        <input type="radio" value="more" name="diet" id="42">more than once a week
+                    </label>
+                    <br>
+                    <label for="43">
+                        <input type="radio" value="less" name="diet" id="43">less tham once a week
+                    </label>
+                </li>
+                <li>
+                    <h4>
+                        Select the options you think might help improvising your regular diet:
+                    </h4>
+                    <label for="11">
+                        <input type="checkbox" value="ffo" name="diet" id="11">opening fresh fruit shops near places like schools ,colleges and offices 
+                    </label>
+                    <br>
+                    <label for="12">
+                        <input type="checkbox" value="dp" name="diet" id="12">reducing the prices of possible healthy alternatives to avoid junk
+                    </label>
+                    <br>
+                    <label for="13">
+                        <input type="checkbox" value="ajf" name="diet" id="13">avoiding the presence of packaged foods in college canteens 
+                    </label>
+                    <br>
+                    <label for="14">
+                        <input type="checkbox" value="ia" name="diet" id="14">increasing awareness about having a healthy diet 
+                    </label>
+                </li>
+                <br>
+                <li>
+                    <h4>
+                        Do you support opening of yoga or cardio classes nearby your place?
+                    </h4>
+                    <label for="21">
+                        <input type="radio" value="yes" name="wo" id="21">yes
+                    </label>
+                    <br>
+                    <label for="22">
+                        <input type="radio" value="no" name="wo" id="22">no
+                    </label>
+                </li>
+                <br>
+                <li>
+                    <h4>
+                        Do you have any suggestions that can help us improvise diet or physical fitness awareness among people? if yes type it down here.
+                    </h4>
+                    <textarea name="feedback" id="feedback" placeholder="feedback">
+                    </textarea>
+                </li>
+                </ol>
+                <br>
+                <br>
+            </form>
+            <button class="btn">
+                SUBMIT
+           </button>  
+                <h1 id="para2">
+                    THANK YOU
+                </h1>
+</body>
+</html>
