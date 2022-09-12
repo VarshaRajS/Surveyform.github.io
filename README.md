@@ -14,5 +14,5 @@
  https://varsharajs.github.io/Surveyform.github.io/
  
  
- ## Built for desktop only
+
 
